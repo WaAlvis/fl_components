@@ -12,8 +12,6 @@ class Listview2Screen extends StatelessWidget {
     'Ford'
   ];
 
-  // agregar onTap,
-  //quitar elvation 0 de appbar, backgroundcolor a indigo
 
   @override
   Widget build(BuildContext context) {
@@ -44,3 +42,4 @@ class Listview2Screen extends StatelessWidget {
     );
   }
 }
+
