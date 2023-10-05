@@ -19,9 +19,14 @@ class AppRoute {
         screen: const AlertScreen()),
          MenuOption(
         icon: Icons.emoji_emotions_outlined,
-        nameRoute: 'circle_avatar',
+        nameRoute: 'circle avatar',
         name: 'Circle Avatar Screen',
         screen: const CircleAvatarScreen()),
+          MenuOption(
+        icon: Icons.play_circle_outline_outlined,
+        nameRoute: 'animate',
+        name: 'Animate Screen',
+        screen: const AnimateScreen()),
     MenuOption(
         icon: Icons.card_membership,
         nameRoute: 'card',
