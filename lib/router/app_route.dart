@@ -17,12 +17,12 @@ class AppRoute {
         nameRoute: 'alert',
         name: 'Alert Screen',
         screen: const AlertScreen()),
-         MenuOption(
+    MenuOption(
         icon: Icons.emoji_emotions_outlined,
         nameRoute: 'circle avatar',
         name: 'Circle Avatar Screen',
         screen: const CircleAvatarScreen()),
-          MenuOption(
+    MenuOption(
         icon: Icons.play_circle_outline_outlined,
         nameRoute: 'animate',
         name: 'Animate Screen',
@@ -42,6 +42,11 @@ class AppRoute {
         nameRoute: 'listview 2',
         name: 'List View 2',
         screen: const Listview2Screen()),
+    MenuOption(
+        icon: Icons.text_format_sharp,
+        nameRoute: 'input',
+        name: 'Input Screen',
+        screen: const InputScreen()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
